@@ -1,8 +1,8 @@
 .videoFooter {
   position: relative;
   color: white;
-  bottom: 150px;
-  margin-left: 0px;
+  bottom: 170px;
+  margin-left: 20px;
   display: flex;
 }
 
@@ -20,16 +20,13 @@
 
 .videoFooter__icon {
   position: absolute;
+  padding-top: 15px;
 }
 
-.videoFooter__tiker > .ticker {
+.videoFooter__ticker > .ticker {
   height: fit-content;
-  margin-left: 70px;
+  margin-left: 30px;
   width: 60%;
-}
-
-.videoFooter__tiker h1 {
-  padding-top: 7px;
 }
 
 .videoFooter__record {
@@ -37,7 +34,7 @@
   height: 50px;
   filter: invert(1);
   position: absolute;
-  bottom: 1;
+  bottom: 0;
   right: 20px;
 }
 
